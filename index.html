@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="alert alert-warning w-50">
+      <p>
+        Bài tập 1: Cho người dùng nhập vào 3 số nguyên. Viết chương trình xuất 3
+        số theo thứ tự tăng dần.
+      </p>
+    </div>
+    <div class="form-group mt-2 p-2">
+      <input type="number" id="nhapSo_1" placeholder="Nhập số thứ 1.." />
+      <input type="number" id="nhapSo_2" placeholder="Nhập số thứ 2.." />
+      <input type="number" id="nhapSo_3" placeholder="Nhập số thứ 3.." />
+      <p>&Jcirc;</p>
+      <button class="btn btn-success px-2" id="btnSapXep">Sắp Xếp</button>
+    </div>
+    <div class="alert alert-warning w-50" id="ketQua_b1"></div>
+    <div class="alert alert-warning w-50">
+      <p>
+        Bai tập 2: Viết chương trình “Chào hỏi” các thành viên trong gia<br />
+        đình với các đặc điểm. Đầu tiên máy sẽ<br />
+        hỏi ai sử dụng máy. Sau đó dựa vào câu trả lời và đưa ra lời chào phù
+        hợp. Giả sử trong gia<br />
+        đình có 4 thành viên: Bố (B), Mẹ (M), anh Trai (A) và Em gái (E)
+      </p>
+    </div>
+    <div class="form-group">
+      <select
+        style="border-radius: 0.5rem"
+        class="btn btn-secondary text-left"
+        id="select"
+      >
+        <option value="F" selected>Xin chào người lạ ơi!!!</option>
+        <option value="A">Cha</option>
+        <option value="B">Mẹ</option>
+        <option value="C">Anh Trai</option>
+        <option value="D">Em gái</option>
+      </select>
+      <button
+        class="btn btn-primary ml-2"
+        id="btnLoiChao"
+        style="border-radius: 1rem"
+      >
+        Gửi lời chào
+      </button>
+      <div class="alert alert-success w-50 mt-3" id="ketQua_b2"></div>
+    </div>
+    <div class="alert alert-warning w-50">
+      <p>
+        Bài tập 3:Cho 3 số nguyên. Viết chương trình xuất ra có bao nhiêu số lẻ
+        và bao nhiêu số chẵn.
+      </p>
+    </div>
+    <div class="form-group">
+      <input id="soThu1" placeholder="Nhập số thứ 1" />
+      <input id="soThu2" placeholder="Nhập số thứ 2" />
+      <input id="soThu3" placeholder="Nhập số thứ 3" />
+    </div>
+    <button class="btn btn-success" id="btnDem">Đếm</button>
+    <div class="alert alert-warning w-50 mt-2" id="ketQua_b3"></div>
+    <div class="alert alert-warning w-50">
+      <p>
+        Bài tâp 4: Viết chương trình cho nhập 3 cạnh của tam giác. Hãy cho biết
+        đó là tam giác gì?
+      </p>
+    </div>
+    <div class="form-group">
+      <input id="canh1" placeholder="Nhập độ dài cạnh 1" />
+      <input id="canh2" placeholder="Nhập độ dài cạnh 2" />
+      <input id="canh3" placeholder="Nhập độ dài cạnh 3" />
+    </div>
+    <button class="btn btn-success" id="btnDuDoan">Dự Đoán</button>
+    <div class="alert alert-warning w-50 mt-2" id="ketQua_b4"></div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./jsindex.js"></script>
+  </body>
+</html>
